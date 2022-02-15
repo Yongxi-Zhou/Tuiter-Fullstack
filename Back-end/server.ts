@@ -23,6 +23,8 @@ app.get("/hello", (req: Request, res: Response) => res.send("Hello World!"));
 app.get("/add/:a/:b", (req: Request, res: Response) =>
     res.send(req.params.a + req.params.b)
 );
+
+//create data
 // app.get("/adduserone", (req: Request, res: Response) => {
 //     const user1 = new UserModel({
 //         username: "alice",
